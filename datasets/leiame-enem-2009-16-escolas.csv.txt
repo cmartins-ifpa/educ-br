@@ -1,0 +1,36 @@
+Contém dados consolidados dos inscritos no Enem entre 2009 e 2016.
+No tratamento dos dados brutos, foram considerados apenas os registros de inscritos presentes nas provas, que estejam na condição de aluno concluinte (tp_st_conclusao = '2', onde '2'=Esta cursando e concluira o Ensino Médio no ano do ENEM), e  somente escolas com mais de 10 alunos que estiveram presentes nas provas. 
+
+nu_ano = (2009 a 2016)
+
+co_escola = Código da escola (referenciar a tabela de escolas no Censo Escolar) - (tamanho: 8)
+
+sg_uf_esc = sigla da UF  
+
+co_municipio_esc = código IBGE do município (tamanho: 7)
+
+tp_sexo = (M, F)
+
+tp_dependencia_adm_esc = Código do tipo de escola (1-Federal, 2-Estadual, 3-Municipal, 4-Privada)
+
+tp_localizacao_esc = Código do local da escola (1	Urbana, 2	Rural)
+
+inscritos = quantidade de inscritos
+
+md_cn = média das notas da prova de Ciências da Natureza
+md_ch = média das notas da prova de Ciências Humanas
+md_lc = média das notas da prova de Linguagens e Códigos
+md_mt = média das notas da prova de Matemática
+md_red = média das notas da prova de Redação
+
+Resumo do processamento dos dados					
+ano   md_cn	md_ch	md_lc	md_mt	md_ob md_red
+2009	496,7	496,3	493,8	495,5	495,6	563,3
+2010	481,2	534,4	504,1	504,5	506,1	560,4
+2011	461,2	467,9	513,8	515,8	489,7	509,9
+2012	470,0	516,4	487,4	507,9	495,4	501,7
+2013	471,7	512,6	485,9	512,5	495,7	506,1
+2014	485,7	544,8	508,2	478,1	504,2	479,9
+2015	478,5	554,9	502,2	473,3	502,2	536,1
+2016	480,7	534,0	520,0	492,2	506,7	536,8
+* md_ob = média das provas objetivas 
