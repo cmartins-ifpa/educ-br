@@ -1,5 +1,9 @@
 Contém dados consolidados dos inscritos no Enem entre 2009 e 2016.
-No tratamento dos dados brutos, foram considerados apenas os registros de inscritos presentes nas provas, que estejam na condição de aluno concluinte (tp_st_conclusao = '2', onde '2'=Esta cursando e concluira o Ensino Médio no ano do ENEM), e  somente escolas com mais de 10 alunos que estiveram presentes nas provas. 
+No tratamento dos dados brutos, foram considerados apenas:
+A) os registros de inscritos presentes nas provas, 
+B) que estejam na condição de aluno concluinte, isto é:
+   (tp_st_conclusao = '2', onde '2'=Esta cursando e concluira o Ensino Médio no ano do ENEM), e  
+C) somente escolas com mais de 10 alunos que estiveram presentes nas provas. 
 
 nu_ano = (2009 a 2016)
 
